@@ -1,0 +1,36 @@
+.progress-spinner {
+  height: 30px;
+}
+
+.users-list {
+  width: 600px;
+  margin: auto;
+  font-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  left: 70px;
+}
+.users-list .user-item {
+  padding: 6px;
+  height: 100px;
+  margin-right: 80px;
+  text-align: left;
+}
+.users-list .user-item .avatar-outer {
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+.users-list .user-item .avatar-outer .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 1px;
+  border: 3px solid #ccc;
+}
+.users-list .user-item .user-name {
+  width: calc(100% - 50px);
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+}/*# sourceMappingURL=user-list.css.map */
